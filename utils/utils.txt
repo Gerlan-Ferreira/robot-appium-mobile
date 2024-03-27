@@ -1,0 +1,11 @@
+robot -d ./logs nome do arquivo = Serve para ao rodar os testes especificar uma pasta onde serão salvos os logs e outputs do robot
+
+-i = pode se usar tags para executar 1 unico caso de teste. Ex: robot -d ./logs -i long tests\buttons.robot   
+
+-e = exclui tags na hora de rodar o caso de teste. Ex: robot -d ./logs -e long tests\buttons.robot   
+
+Tipos de variáveis:
+
+${simples}    gerlan    #variavel simples
+@{lista}    gerlan    ferreira    de     barros     #variavel tipo lista/array
+&{dicionário-objeto}    nome=test    modelo=teste2    ano=2024    #variavel tipo de dicionario/objeto no qual tem chave e valor
