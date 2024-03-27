@@ -13,7 +13,7 @@ Deve abrir a tela principal
     ...    platformVersion=11.0.0   
     ...    app=${EXECDIR}/app/twp.apk   
     
-    Wait Until Page Contains    Training Wheels Protocol    5
-    Wait Until Page Contains    Mobile Version    5
+    Wait Until Page Contains    Training Wheels Protocol    3
+    Wait Until Page Contains    Mobile Version    3
     
     Close Application
