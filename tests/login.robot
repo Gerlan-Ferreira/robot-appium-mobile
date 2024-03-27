@@ -11,8 +11,8 @@ Deve logar com sucesso
 
     Go To Login Form
 
-    Input Text    id=io.qaninja.android.twp:id/etEmail       eu@papito.io
-    Input Text    id=io.qaninja.android.twp:id/etPassword    qaninja
+    Input Text    id=io.qaninja.android.twp:id/etEmail       ${USER}
+    Input Text    id=io.qaninja.android.twp:id/etPassword    ${PASSWORD}
 
     Click Element    id=io.qaninja.android.twp:id/btnSubmit
     

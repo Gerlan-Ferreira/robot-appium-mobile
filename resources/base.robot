@@ -2,6 +2,7 @@
 
 Library     AppiumLibrary
 Resource    helpers.robot
+Resource    env.robot
 
 *** Keywords ***
 
